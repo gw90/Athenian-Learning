@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Scrambled Words </title>
+
+
+   <script>
+
+
+
+     var definitions  =  Array('Sport','badminton');
+
+
+     var answers = Array('le sport','le badminton');
+
+     var scrambles  =  Array('sp leort','badle minton');
+
+
+     function validate(){
+
+alert(document.questions.answer.value);
+
+alert(document.questions.canswer.value);
+
+alert(document.questions.questionnum.value);
+
+     }
+
+ </script>
+
+
+</head>
+
+<body>
+
+
+
+
+<form name="questions"  onsubmit="return false">
+<P> Definition =  $Sport$ </p>
+<p> Scrambled Answer  =  "$sp leort$"  </p>
+<p> Unscrambled  Answer =   <input type="text"  name="answer"  value=""></input>
+<p> <input  type="hidden" name="canswer"  value="le sport">
+<p> <input  type="hidden" name="questionnum"  value="1">
+<br> <b><div onclick="javascript:validate()" >Check Your UnScramble </div></b>
+
+</form>
+
+
+
+
+ </body>
+
+
+ </html>

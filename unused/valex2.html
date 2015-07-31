@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Scrambled Words </title>
+
+
+   <script>
+
+
+    var definitions  =  Array('Sport','badminton');
+    var answers = Array('le sport','le badminton');
+    var scrambles  =  Array('sp leort','badle minton');
+
+
+     function validate(){
+
+
+     alert(definitions[0]);
+
+     alert(document.questions.answer.value);
+
+alert(document.questions.canswer.value);
+
+     x =  document.getElementById('q2').innerHTML;
+
+
+
+     document.getElementById('q1').innerHTML  = x;
+
+
+
+//alert(document.questions.questionnum.value);
+
+     }
+
+ </script>
+
+
+</head>
+
+<body>
+
+
+
+
+<form name="questions"  onsubmit="return false">
+
+<hr>
+
+<div id="q1">
+<P> Definition =  $Sport$ </p>
+<p> Scrambled Answer  =  "$sp leort$"  </p>
+<p> Unscrambled  Answer =   <input type="text"  name="answer"  value="">
+<p> <input  type="hidden" name="canswer"  value="le sport">
+</div>
+
+<hr>
+
+<hr>
+<br> <b><div onclick="javascript:validate()" >Check Your UnScramble </div></b>
+
+</form>
+
+
+
+<div  id="tenquestions">
+
+<div id="q2">
+<P> Definition =  $Car$ </p>
+<p> Scrambled Answer  =  "$auto le$"  </p>
+<p> Unscrambled  Answer =   <input type="text"  name="answer"  value="">
+<p> <input  type="hidden" name="canswer"  value="le auto">
+</div>
+
+</div>
+
+
+
+
+
+ </body>
+
+
+ </html>

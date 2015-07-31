@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Scrambled Words</title>
+
+
+   <script>
+
+     function validate(){
+
+    
+     //alert(definitions[0]);
+
+     alert(document.questions.answer[0].value);
+
+    alert(document.questions.canswer[0].value);
+
+     var x =  document.getElementById('q2').innerHTML;
+
+
+
+     document.getElementById('q1').innerHTML  = x;
+
+
+
+//alert(document.questions.questionnum.value);
+
+     }
+
+ </script>
+
+
+</head>
+
+<body>
+
+
+
+
+<form name="questions"  onsubmit="return false">
+
+<div id="q1">
+<P> Definition =  ping-pong </p>
+<p> Scrambled Answer  =  "on plngigp-e"  </p>
+<p> Unscrambled  Answer =   <input type="text"  name="answer" value="">
+<p> <input  type="hidden" name="canswer"  value="le ping-pong">
+</div>
+<br> <b><div onclick="javascript:validate()" >Check Your UnScramble </div></b>
+
+<div  id="tenquestions"><div style="visibility:hidden;" id="q1">
+<P> Definition =  volleyball </p>
+<p> Scrambled Answer  =  "l oveyell"  </p>
+<p> Unscrambled  Answer =   <input type="text"  name="answer"  value="">
+<p> <input  type="hidden" name="canswer"  value="le volley">
+</div><div style="visibility:hidden;" id="q2">
+<P> Definition =  badminton </p>
+<p> Scrambled Answer  =  "namteldoibn "  </p>
+<p> Unscrambled  Answer =   <input type="text"  name="answer"  value="">
+<p> <input  type="hidden" name="canswer"  value="le badminton">
+</div><div style="visibility:hidden;" id="q3">
+<P> Definition =  tennis </p>
+<p> Scrambled Answer  =  "n leniset"  </p>
+<p> Unscrambled  Answer =   <input type="text"  name="answer"  value="">
+<p> <input  type="hidden" name="canswer"  value="le tennis">
+</div><div style="visibility:hidden;" id="q4">
+<P> Definition =  hockey </p>
+<p> Scrambled Answer  =  "kehye lco"  </p>
+<p> Unscrambled  Answer =   <input type="text"  name="answer"  value="">
+<p> <input  type="hidden" name="canswer"  value="le hockey">
+</div><div style="visibility:hidden;" id="q5">
+<P> Definition =  basketball </p>
+<p> Scrambled Answer  =  "sateeb lk"  </p>
+<p> Unscrambled  Answer =   <input type="text"  name="answer"  value="">
+<p> <input  type="hidden" name="canswer"  value="le basket">
+</div><div style="visibility:hidden;" id="q6">
+<P> Definition =  golf </p>
+<p> Scrambled Answer  =  "f lloeg"  </p>
+<p> Unscrambled  Answer =   <input type="text"  name="answer"  value="">
+<p> <input  type="hidden" name="canswer"  value="le golf">
+</div><div style="visibility:hidden;" id="q7">
+<P> Definition =  ice skating </p>
+<p> Scrambled Answer  =  " leÃaiep glc at n"  </p>
+<p> Unscrambled  Answer =   <input type="text"  name="answer"  value="">
+<p> <input  type="hidden" name="canswer"  value="le patin Ã  glace">
+</div><div style="visibility:hidden;" id="q8">
+<P> Definition =  soccer </p>
+<p> Scrambled Answer  =  "to ofle"  </p>
+<p> Unscrambled  Answer =   <input type="text"  name="answer"  value="">
+<p> <input  type="hidden" name="canswer"  value="le foot">
+</div><div style="visibility:hidden;" id="q9">
+<P> Definition =  sports </p>
+<p> Scrambled Answer  =  "le rstpo"  </p>
+<p> Unscrambled  Answer =   <input type="text"  name="answer"  value="">
+<p> <input  type="hidden" name="canswer"  value="le sport">
+</div><div style="visibility:hidden;" id="q10">
+<P> Definition =  rugby </p>
+<p> Scrambled Answer  =  "rleyb gu"  </p>
+<p> Unscrambled  Answer =   <input type="text"  name="answer"  value="">
+<p> <input  type="hidden" name="canswer"  value="le rugby">
+</div></div>
+</form>
+
+
+
+ </body>
+
+
+ </html>
